@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
+
+
+<!-- El DOM es la representacion del HTML en una estructura de datos de arbol,
+ el cual podemos crear o modificar para desarrollar lo que necesitemos -->
+
+
+ <!-- 
+ 1- HTML posee a: head y body 
+ 2- body posee a: header, main y footer
+ 3- Header posee a h1 y button
+ 4- main posee a: div
+ 5- footer posee a: p y a
+
+
+
+ El DOM representa la relación que existe entre estas etiquetas HTML
+ -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <header>
+    <h1>Oprime el botón</h1>
+    <button onclick="colores()">Botón</button>
+    <!-- 
+    existen varias formas de interactuar con el DOM, por ejemplo desde un archivo JS
+    en la línea superior se ve un function que pertenece a un JS, en este caso un archivo
+    con el nombre app.js
+     -->
+    </header>
+   
+    <main>
+        <div id="div1">
+
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 itzacky</p>
+        <a href=""></a>
+    </footer>
+    <script src="js/app.js"></script>
     
-</body>
+</body> 
+
+
+
+
+
 </html>
+
+
+<!--    --> 
