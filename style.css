@@ -1,0 +1,22 @@
+/* --- Configuración del fondo oscuro (como en tu imagen) --- */
+
+
+/* --- ¡Aquí está la magia! --- */
+#gotic {
+  /* 1. La Fuente: Usamos la fuente que importamos. 
+     'cursive' es una fuente de respaldo por si falla la carga. */
+  font-family: 'MedievalSharp', cursive;
+  
+  /* 2. El Color: Texto en blanco */
+  color: rgb(188, 4, 132);
+  
+  /* 3. El Tamaño: Ajusta esto a tu gusto */
+  font-size: 4rem; /* 4rem = 64px aprox. */
+  
+  /* Opcional: Quitamos márgenes para que se parezca más a la lista */
+  margin: 0.25em 0; 
+  
+  /* Opcional: Las fuentes góticas a veces se ven mejor sin antialiasing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

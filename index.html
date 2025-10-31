@@ -3,9 +3,48 @@
 
 
 
-<!-- El DOM es la representacion del HTML en una estructura de datos de arbol,
+<!-- 
+
+==================================
+====   ZONA EXPLICATIVA 7U7   ====
+==================================
+
+
+El DOM es la representacion del HTML en una estructura de datos de arbol,
  el cual podemos crear o modificar para desarrollar lo que necesitemos -->
 
+<!-- 
+Etimológicamente hablando, ¿Qué significan las siglas DOM?
+
+DOM (Document Object Model) es una especie de mapa o representación estructurada
+de una Pagina HTML.
+
+Cuando un navegador WEB carga una Página web (HTML) crea una estructura de objetos
+a partir del codigo de la pagina web.
+
+Cada elemento HTML, como pueden ser: Titulos, párrafos, imágenes (y lo que sea)
+se convierte en un Objeto en el DOM.
+
+
+Desde un punto etimológico DOM se refiere a:
+
+Document: El archivo HTML en cuestión.
+
+Object: Cada elemento que se encuentre dentro del .
+
+Model: La estructura organizada que tienen estos objetos entre sí,
+(y casi siemnpre se representan en forma de árbol genealógico)
+
+
+Cuando se esté trabajando con JavaScript en una pagina web, podemos interactuar
+con los objetos del DOM para cambiar el contenido de la página en cuestión, 
+es decir:
+
+- Modificar estilos
+- Agregar elementos o quitarlos
+- Entre otros.
+
+-->
 
  <!-- 
  1- HTML posee a: head y body 
@@ -22,12 +61,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
     <h1>Oprime el botón</h1>
     <button onclick="colores()">Botón</button>
+    <p id="gotic">Esto es un test</p>
     <!-- 
     existen varias formas de interactuar con el DOM, por ejemplo desde un archivo JS
     en la línea superior se ve un function que pertenece a un JS, en este caso un archivo
@@ -55,6 +101,3 @@
 
 
 </html>
-
-
-<!--    --> 

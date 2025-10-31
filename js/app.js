@@ -1,4 +1,4 @@
-let div = document.querySelector('div')
+let div = document.getElementById('div1')
 //  inicializamos la variable div con "let" 
 //  este div esta ligado con el main del HTML,
 //  ¿que quiere decir? pues que estamos accediendo a
